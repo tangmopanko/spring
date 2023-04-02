@@ -30,7 +30,7 @@ public class HelloConfiguration {
         .start(this.helloStep())
         .build();
     }
-
+    
     @Bean 
     public Step helloStep() {
         return stepBuilderFactory.get("HelloStep")
