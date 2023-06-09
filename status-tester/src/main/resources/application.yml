@@ -1,0 +1,24 @@
+management:
+  health:
+    readinessState:
+      enabled: 'true'
+    probes:
+      enabled: 'true'
+    livenessState:
+      enabled: 'true'
+  endpoint:
+    web:
+      exposure:
+        include: "*"
+        exclude: "env,beans"
+    jmx:
+      exposure:
+        include: "health,info"
+    health:
+      show-details: always
+      status:
+        http-mapping:
+          down: '500'
+          warning: '500'
+          out_of_service: '503'
+

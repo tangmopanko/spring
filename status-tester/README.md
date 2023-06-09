@@ -15,7 +15,9 @@
 #### docker image 최적화 
 - https://velog.io/@yyong3519/SpringBoot-%EB%8F%84%EC%BB%A4-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EC%B5%9C%EC%A0%81%ED%99%94 
 
-
+#### spring boot
+- https://godekdls.github.io/Spring%20Boot/spring-boot-actuator/
+- 
 - https://docs.spring.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/
 ```
 # build
