@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  creationTimestamp: 2023-06-07T17:50:08Z
+  name: {{ .Release.Name }}-configmap
+data:
+  expose: {{ default "8080" .Values.environment.expose | quote }}
+
